@@ -18,6 +18,9 @@
 </script>
 
 <body>
+    <div class="abrir">
+        <div>  <button class="frase font-1-400 btn-js" onclick="playaudio(), removeModal()" data-anime="600"><img src="img/envelope.png" class="envelope"></button></div>
+      </div>
     <div class="home">
         <span class="data font-1-300" data-aos="fade-up">06.07.2024</span>
         <div class="container_nomes" data-aos="fade-up">
@@ -282,13 +285,14 @@
             <button class="modalBtn btn" onclick="openModal('modalBtn')">Pix e Lista</button>
         </div>
     </div>
+    <audio src="audio/musica.mp3" id="audio">
+
+    </audio>
     <footer class="size ">
         Desenvolvido por <a href="https://convitecasamento.com.br/" target="_blank">N & B
             convites digitais para casamento</a>
     </footer>
-    <audio src="audio/musica.mp3" id="audio">
 
-    </audio>
 </body>
 <script>
     const btn = document.querySelector('.btn-js');

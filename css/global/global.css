@@ -155,3 +155,43 @@ body .btn.confirmar:hover{
   color: #81948B !important;
   background-color: white !important;
 }
+
+
+.abrir{
+  background-color: white;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+  
+  
+}
+
+.abrir div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+ 
+}
+
+.envelope{
+  width: 100%;
+
+      
+}
+
+.abrir button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  background: transparent;
+  color: #1D949C;
+}
+
+.abrir.oculto{
+  display: none;
+}
