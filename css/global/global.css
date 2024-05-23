@@ -142,3 +142,16 @@ a {
     
 
 }
+
+
+body .btn.confirmar{
+  margin: 40px;
+  color: white !important;
+  background-color: #81948B !important;
+}
+
+
+body .btn.confirmar:hover{
+  color: #81948B !important;
+  background-color: white !important;
+}
